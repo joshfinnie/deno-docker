@@ -1,0 +1,16 @@
+{
+  "name": "deno-docker",
+  "version": "1.0.0",
+  "description": "A Simple Hello World web server written in Deno.",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "deno",
+    "web",
+    "server"
+  ],
+  "author": "Josh Finnie <josh@jfin.us>",
+  "license": "MIT"
+}
