@@ -8,7 +8,7 @@ RUN apt-get update && \
         unzip && \
     rm -fr /var/lib/apt/lists/*
 
-RUN curl -fsSL https://deno.land/x/install/install.sh | sh -s v1.0.0-rc1
+RUN curl -fsSL https://deno.land/x/install/install.sh | sh -s v1.0.0
 
 ENV PATH "/root/.deno/bin:$PATH"
 
